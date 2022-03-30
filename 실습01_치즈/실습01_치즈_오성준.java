@@ -1,9 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Boj2636 {
 
@@ -12,8 +9,6 @@ public class Boj2636 {
 	static int X,Y, cheeseCnt = 0;
 	static int[][] arr;
 	static boolean[][] visit;
-	static Queue<int[]> qOne = new LinkedList<int[]>();
-	static Queue<int[]> qZero = new LinkedList<int[]>();
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
