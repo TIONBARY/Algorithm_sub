@@ -1,12 +1,10 @@
-package Baekjoon1600;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main {
+public class 과제01_말이되고픈원숭이_김시언 {
 	static int K, W, H, map[][];
 	static int dx[] = {-1, 0, 1, 0};
 	static int dy[] = {0, 1, 0, -1};
