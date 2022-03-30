@@ -22,7 +22,10 @@ public class 과제01_말이되고픈원숭이 {
 		int remainingJump;
 	}
 	
-	
+	// BFS 탐색인데 일정 횟수만큼 점프를 허용한다.
+	// 주의해야 할 점이 일반적인 경로탐색에서 한번 방문했던 점은 최단경로가 될 수 없지만 이 경우
+	// 다시 방문하더라도 남은 점프 개수가 이전보다 많은 상태면 최단경로의 일부일 수 있다는 점이다.
+
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		K = Integer.parseInt(br.readLine());
