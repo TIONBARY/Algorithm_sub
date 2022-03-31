@@ -16,7 +16,7 @@ public class 실습02_아파트색칠하기 {
 		}
 		
 		System.out.print("f(" + N + ") = ");
-		System.out.println(dp[N][0] + dp[N][1]); // dp[8] = 55
+		System.out.println(dp[N][0] + dp[N][1]); // f(8) = 55
 		
 	}
 	
