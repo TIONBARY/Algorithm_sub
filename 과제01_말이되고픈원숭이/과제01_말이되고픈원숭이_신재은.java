@@ -1,4 +1,4 @@
-// 메모리 초과 뜸
+// 메모리 초과 뜸 -> 말처럼 이동할때 방문 불가능 조건에서 방문 표기에 k 하나 쓴 거 추가하면 정상 실행
 
 import java.io.*;
 import java.util.*;
@@ -71,7 +71,7 @@ public class B1600_말이되고픈원숭이 {
 				int nr = mon.nowR + hdr[i];
 				int nc = mon.nowC + hdc[i];
 				// 방문 불가 조건(범위 벗어남, 이미 현재 횟수에서 방문, 장애물)
-				if(nr<0 || nr>=H || nc<0 || nc>=W || visited[nr][nc][mon.reK] || map[nr][nc]!=0) continue;
+				if(nr<0 || nr>=H || nc<0 || nc>=W || visited[nr][nc][mon.reK+1] || map[nr][nc]!=0) continue;
 				// 방문 가능 -> 이동하고 방문 표기(한 번 말처럼 이동 사용했으므로 +1)
 				visited[nr][nc][mon.reK+1] = true;
 				queue.offer(new Monkey(nr, nc, mon.reK+1, mon.cnt+1));
