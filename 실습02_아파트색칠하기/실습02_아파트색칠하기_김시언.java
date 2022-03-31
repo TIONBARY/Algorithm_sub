@@ -1,5 +1,3 @@
-package 아파트색칠하기;
-
 import java.util.Scanner;
 
 public class Main {
