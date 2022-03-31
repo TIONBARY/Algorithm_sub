@@ -16,7 +16,7 @@ public class 실습03_막대색칠하기 {
 		}
 		
 		System.out.print("f(" + N + ") = ");
-		System.out.println(dp[N]);  // dp[6] = 169		
+		System.out.println(dp[N]);  // f(6) = 169		
 	}
 
 }
