@@ -1,5 +1,3 @@
-package 막대색칠하기;
-
 import java.util.Scanner;
 
 public class Main {
