@@ -10,6 +10,7 @@ public class Solution {
 		T=sc.nextInt();
 
 		for(int test_case = 1; test_case <= T; test_case++) {
+			// 오늘 배운 플로이드 와샬 구현
 			int N = sc.nextInt();
 			int[][] adjMatrix = new int[N][N];
 			int[][] dist = new int[N][N];
