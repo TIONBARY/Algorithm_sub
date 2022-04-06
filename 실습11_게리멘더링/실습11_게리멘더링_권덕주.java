@@ -74,7 +74,7 @@ public class 실습11_게리맨더링 {
 			dfs1(group1[0]);
 			dfs2(group2[0]);
 			
-			
+			// 각각이 연결되어 있는지 체크
 			if (groupCheck(group1, visited1) && groupCheck(group2, visited2)) {
 				int pop1 = getPop(group1);
 				int pop2 = getPop(group2);
