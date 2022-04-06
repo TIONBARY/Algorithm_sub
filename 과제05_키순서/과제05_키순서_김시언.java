@@ -1,5 +1,3 @@
-package SWEA5643;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -39,7 +37,7 @@ public class Solution {
 				DFS(i);
 				student[i] += sum;
 			}
-			
+				
 			result = 0;
 			for(int i=1; i<=N; i++) {
 				if(student[i] == N) {
